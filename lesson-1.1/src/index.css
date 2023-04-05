@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Heebo', sans-serif;
+  color: black;
+}
+
+.container{
+  max-width: 1152px;
+  margin: 0px auto;
+  padding: 27px 148px;
+}
+
+/* -------- header -------- */
+
+
+.header{
+  padding-top: 27px;
+  width: 236px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 70%;
+  margin-bottom: 140px;
+}
+
+.header--link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+/* -------- hero -------- */
+
+.hero{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 71px;
+}
+
+.hero--heading{
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+  width: 440px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.hero-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  width: 497px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.hero-btn{
+  width: 208px;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* ----- posts  ----- */
+
+.section-posts{
+  padding: 7px 0px 32px 0px;
+  background: #EDF7FA;
+}
+
+.posts-heading{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243D;
+  display: inline;
+}
+
+.posts-link{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #00A8CC;
+  text-decoration: none;
+  display: inline;
+  margin-left: 78%;
+}
+
+.posts-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  width: 418px;
+  padding: 24px 21px;
+}
+
+.post-title{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243D;
+  margin-bottom: 17px;
+}
+
+.post-data{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+  margin-bottom: 11px;
+}
+
+.post-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+
+
+/* ----- Futured ----- */
+
+
+.futured-title{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  margin-bottom: 22px;
+  margin-top: 15px;
+}
+
+.card{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.card-info{
+  width: 580px;
+}
+
+.card-info-title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+  margin-bottom: 16px;
+}
+
+.card-info-data{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  margin-bottom: 16px;
+  
+}
+
+.card-info-date{
+  font-weight: 900;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #142850;
+  border-radius: 16px;
+  width: 62px;
+  height: 25px;
+  padding: 0px 10px;
+}
+
+.card-info-text{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+
+.line{
+  display: block;
+  width: 858px;
+  height: 0px;
+  border: 1px solid #E0E0E0;
+  margin-bottom: 30px;
+}
+
+
+/* ----- footer  ----- */
+footer{
+  margin-top: 100px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 222px;
+  margin: 0px auto;
+}
+
+.footer-liink{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #21243D;
+  margin-left: 42%;
+  margin-top: 25px;
+}
